@@ -1,0 +1,17 @@
+#NUMPY ARRAY SORT
+import numpy as np
+print("Sorting an array using sort() function")
+arr = np.array([3, 2, 0, 1])
+print(np.sort(arr))
+print("\n")
+print("Sorting the array alphabetically")
+arr1 = np.array(['banana', 'cherry', 'apple'])
+print(np.sort(arr1))
+print("\n")
+print("Sorting a boolean array")
+arr2 = np.array([True, False, True])
+print(np.sort(arr2))
+print("\n")
+print("Sorting a 2-D array")
+arr3 = np.array([[3, 2, 4], [5, 0, 1]])
+print(np.sort(arr3))
